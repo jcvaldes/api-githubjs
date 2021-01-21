@@ -1,0 +1,32 @@
+{
+  "name": "api-githubjs",
+  "version": "1.0.0",
+  "description": "Acceso a la API de GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcvaldes/githubjs-api.git"
+  },
+  "keywords": [
+    "github",
+    "api",
+    "nodejs"
+  ],
+  "author": "Juan Carlos Valdes <idevkingos@gmail.com> (devkingos.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcvaldes/githubjs-api/issues"
+  },
+  "homepage": "https://github.com/jcvaldes/githubjs-api#readme",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "8.2.1",
+    "nock": "13.0.6"
+  },
+  "dependencies": {
+    "axios": "0.21.1"
+  }
+}
